@@ -1,6 +1,5 @@
+Generated markdown
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mixtrus/AI-CV-GEN/main/.github/banner.png?token=GHSAT0AAAAAACQ5Y2U7Z3XW4R6B5N7A4S3KZQ5Y2U7" alt="AI Resume Builder Banner">
-  <br>
   <h1>🔥 AI-Powered Resume Builder 🔥</h1>
   <p>
     <strong>Transform your career narrative with a resume crafted by AI.</strong><br>
@@ -29,7 +28,7 @@ In today's competitive job market, a standout resume is non-negotiable. This pro
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mixtrus/AI-CV-GEN/main/.github/demo.gif?token=GHSAT0AAAAAACQ5Y2U7Z3XW4R6B5N7A4S3KZQ5Y2U7" alt="Project Demo GIF" width="800">
+  <img src="https://raw.githubusercontent.com/mixtrus/AI-CV-GEN/main/.github/demo.gif" alt="Project Demo GIF" width="800">
 </div>
 
 <br>
@@ -119,6 +118,7 @@ Get your own instance of the AI Resume Builder running in just a few minutes.
 
 The project follows a clean, scalable structure that separates concerns effectively.
 
+
 AI-CV-GEN/
 ├── public/ # 🌐 Web server's document root
 │ ├── index.php # 🚦 Front Controller (All requests go here)
@@ -136,6 +136,7 @@ AI-CV-GEN/
 ├── composer.json # 📦 Project dependencies and autoloading
 └── README.md # 👈 You are here!
 
+Generated code
 ---
 
 ## 🤝 How to Contribute
@@ -161,3 +162,8 @@ This project is distributed under the MIT License. See `LICENSE` for more inform
 -   [OpenAI](https://openai.com) for their incredible language models.
 -   The creators of [dompdf](https://github.com/dompdf/dompdf) and [PHPWord](https://github.com/PHPOffice/PHPWord).
 -   All the developers whose open-source work made this project possible.
+IGNORE_WHEN_COPYING_START
+content_copy
+download
+Use code with caution.
+IGNORE_WHEN_COPYING_END
