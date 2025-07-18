@@ -1,4 +1,3 @@
-Generated markdown
 <div align="center">
   <h1>🔥 AI-Powered Resume Builder 🔥</h1>
   <p>
@@ -162,8 +161,3 @@ This project is distributed under the MIT License. See `LICENSE` for more inform
 -   [OpenAI](https://openai.com) for their incredible language models.
 -   The creators of [dompdf](https://github.com/dompdf/dompdf) and [PHPWord](https://github.com/PHPOffice/PHPWord).
 -   All the developers whose open-source work made this project possible.
-IGNORE_WHEN_COPYING_START
-content_copy
-download
-Use code with caution.
-IGNORE_WHEN_COPYING_END
