@@ -1,10 +1,3 @@
-Of course. Here is the fully updated, aesthetically enhanced `README.md` file.
-
-This version incorporates a more visually appealing design, a dedicated section to encourage stars and support, and uses a refined set of symbols for the project structure. The "Repo Size" badge URL is correct and will automatically update from 0B as soon as you commit and push files to the repository.
-
----
-
-```markdown
 <div align="center">
   <h1>🔥 AI-Powered Resume Builder 🔥</h1>
   <p>
@@ -186,4 +179,3 @@ This project is distributed under the MIT License. See `LICENSE` for more inform
 -   [OpenAI](https://openai.com) for their incredible language models.
 -   The creators of [dompdf](https://github.com/dompdf/dompdf) and [PHPWord](https://github.com/PHPOffice/PHPWord).
 -   All the developers whose open-source work made this project possible.
-```
