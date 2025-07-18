@@ -1,3 +1,10 @@
+Of course. Here is the fully updated, aesthetically enhanced `README.md` file.
+
+This version incorporates a more visually appealing design, a dedicated section to encourage stars and support, and uses a refined set of symbols for the project structure. The "Repo Size" badge URL is correct and will automatically update from 0B as soon as you commit and push files to the repository.
+
+---
+
+```markdown
 <div align="center">
   <h1>🔥 AI-Powered Resume Builder 🔥</h1>
   <p>
@@ -10,6 +17,7 @@
     <a href="https://github.com/mixtrus/AI-CV-GEN/stargazers"><img src="https://img.shields.io/github/stars/mixtrus/AI-CV-GEN?style=for-the-badge&color=gold" alt="GitHub Stars"></a>
     <a href="https://github.com/mixtrus/AI-CV-GEN/network/members"><img src="https://img.shields.io/github/forks/mixtrus/AI-CV-GEN?style=for-the-badge&color=blue" alt="GitHub Forks"></a>
     <a href="https://github.com/mixtrus/AI-CV-GEN/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mixtrus/AI-CV-GEN?style=for-the-badge&color=green" alt="License"></a>
+    <a href="https://github.com/mixtrus/AI-CV-GEN/commits/main"><img src="https://img.shields.io/github/last-commit/mixtrus/AI-CV-GEN?style=for-the-badge&color=informational" alt="Last Commit"></a>
     <img src="https://img.shields.io/badge/PHP-8.1%2B-blueviolet?style=for-the-badge&logo=php" alt="PHP Version">
     <img src="https://img.shields.io/github/repo-size/mixtrus/AI-CV-GEN?style=for-the-badge" alt="Repo Size">
   </p>
@@ -46,14 +54,14 @@ In today's competitive job market, a standout resume is non-negotiable. This pro
 
 ## 🌟 Core Features
 
--   Intuitive, no-code resume building form.
--   Toggleable AI enhancement for key text sections.
--   Live, responsive preview of your resume as you build.
--   Three distinct visual themes (Modern, Classic, Corporate).
--   One-click PDF and DOCX downloads.
--   Clean, well-organized, and commented source code.
--   Share buttons to showcase the project on social media.
--   Secure environment variable management with `.env`.
+-   ✅ Intuitive, no-code resume building form.
+-   ✅ Toggleable AI enhancement for key text sections.
+-   ✅ Live, responsive preview of your resume as you build.
+-   ✅ Three distinct visual themes (Modern, Classic, Corporate).
+-   ✅ One-click PDF and DOCX downloads.
+-   ✅ Clean, well-organized, and commented source code.
+-   ✅ Share buttons to showcase the project on social media.
+-   ✅ Secure environment variable management with `.env`.
 
 ---
 
@@ -63,14 +71,14 @@ This project is a showcase of modern PHP development practices without relying o
 
 | Technology | Description |
 | :--- | :--- |
-| **PHP 8.1+** | Core backend language, utilizing modern features like strict types. |
-| **Composer** | For elegant dependency management. |
-| **OpenAI API** | The engine for AI-powered text enhancement. |
-| **Guzzle** | A robust HTTP client for communicating with the OpenAI API. |
-| **dompdf** | A powerful library for converting HTML & CSS into PDFs. |
-| **PHPWord** | For converting HTML into Microsoft Word (.docx) documents. |
-| **HTML5 & CSS3** | For a clean structure and beautiful, responsive styling. |
-| **JavaScript** | Vanilla JS for future frontend enhancements. |
+| **PHP 8.1+** | 🐘 Core backend language, utilizing modern features like strict types. |
+| **Composer** | 📦 For elegant dependency management. |
+| **OpenAI API** | 🤖 The engine for AI-powered text enhancement. |
+| **Guzzle** | 🌐 A robust HTTP client for communicating with the OpenAI API. |
+| **dompdf** | 📄 A powerful library for converting HTML & CSS into PDFs. |
+| **PHPWord** | 📝 For converting HTML into Microsoft Word (.docx) documents. |
+| **HTML5 & CSS3** | 🎨 For a clean structure and beautiful, responsive styling. |
+| **JavaScript** | ✨ Vanilla JS for future frontend enhancements. |
 
 ---
 
@@ -86,30 +94,30 @@ Get your own instance of the AI Resume Builder running in just a few minutes.
 
 ### Installation
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/mixtrus/AI-CV-GEN.git
-    cd AI-CV-GEN
-    ```
+1️⃣ **Clone the repository:**
+   ```bash
+   git clone https://github.com/mixtrus/AI-CV-GEN.git
+   cd AI-CV-GEN
+   ```
 
-2.  **Install PHP dependencies with Composer:**
-    ```bash
-    composer install
-    ```
+2️⃣ **Install PHP dependencies with Composer:**
+   ```bash
+   composer install
+   ```
 
-3.  **Set up your environment file:**
-    -   Copy the example file: `cp .env.example .env`
-    -   Open the new `.env` file and add your `OPENAI_API_KEY`.
-    -   Update `APP_URL` to your local server address (e.g., `http://localhost:8000`).
+3️⃣ **Set up your environment file:**
+   -   Copy the example file: `cp .env.example .env`
+   -   Open the new `.env` file and add your `OPENAI_API_KEY`.
+   -   Update `APP_URL` to your local server address (e.g., `http://localhost:8000`).
 
-4.  **Run the local development server:**
-    > **Important:** The document root **must** be the `/public` directory. This is a critical security practice.
-    ```bash
-    php -S localhost:8000 -t public
-    ```
+4️⃣ **Run the local development server:**
+   > **Important:** The document root **must** be the `/public` directory. This is a critical security practice.
+   ```bash
+   php -S localhost:8000 -t public
+   ```
 
-5.  **Launch the application!**
-    Open your browser and navigate to `http://localhost:8000`.
+5️⃣ **Launch the application!**
+   Open your browser and navigate to `http://localhost:8000`.
 
 ---
 
@@ -117,36 +125,53 @@ Get your own instance of the AI Resume Builder running in just a few minutes.
 
 The project follows a clean, scalable structure that separates concerns effectively.
 
+```
+📁 AI-CV-GEN/
+│
+├── 📂 public/                  # 🌐 Web server's document root
+│   ├── 🚀 index.php            # 🚦 Front Controller (All requests go here)
+│   └── 🎨 assets/              # ✨ CSS, JS, and other public assets
+│
+├── 📂 src/                     # ⚙️ Application source code (PSR-4)
+│   ├── 🕹️ Controller/          # 🧑‍✈️ Handles requests and orchestrates responses
+│   ├── 🧠 Service/             # 💡 Business logic (API calls, file generation)
+│   └── 🔩 Core/                # ⚙️ Core components (e.g., Router)
+│
+├── 📂 templates/               # 📄 PHP view templates for rendering HTML
+│   ├── 🏗️ layout.php           # 뼈대 Main site layout
+│   └── 🧩 partials/            # 🧩 Reusable HTML fragments
+│
+├── 📦 vendor/                  # 📚 Composer dependencies (auto-generated)
+│
+├── 🔑 .env                     # 🤫 Your secret environment variables (DO NOT COMMIT)
+├── 📋 .env.example             # 📝 Example .env file
+├── 📄 composer.json            # 📦 Project dependencies and autoloading
+└── 📖 README.md                # 👈 You are here!
+```
 
-AI-CV-GEN/
-├── public/                  # 🌐 Web server's document root
-│   ├── index.php            # 🚦 Front Controller (All requests go here)
-│   └── assets/              # 🎨 CSS, JS, and other public assets
-├── src/                     # ⚙️ Application source code (PSR-4)
-│   ├── Controller/          # 🧑‍✈️ Handles requests and orchestrates responses
-│   ├── Service/             # 🧠 Business logic (API calls, file generation)
-│   └── Core/                # 🔩 Core components (e.g., Router)
-├── templates/               # 📄 PHP view templates for rendering HTML
-│   ├── layout.php           # 🏗️ Main site layout
-│   └── partials/            # 🧩 Reusable HTML fragments
-├── vendor/                  # 📦 Composer dependencies (auto-generated)
-├── .env                     # 🤫 Your secret environment variables (DO NOT COMMIT)
-├── .env.example             # 📋 Example .env file
-├── composer.json            # 📦 Project dependencies and autoloading
-└── README.md                # 👈 You are here!
-
-Generated code
 ---
 
 ## 🤝 How to Contribute
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1.  **Fork the Project**
-2.  **Create your Feature Branch** (`git checkout -b feature/AmazingFeature`)
-3.  **Commit your Changes** (`git commit -m 'Add some AmazingFeature'`)
-4.  **Push to the Branch** (`git push origin feature/AmazingFeature`)
-5.  **Open a Pull Request**
+1.  **Fork the Project** 🍴
+2.  **Create your Feature Branch** (`git checkout -b feature/AmazingFeature`) 🌿
+3.  **Commit your Changes** (`git commit -m 'Add some AmazingFeature'`) 💾
+4.  **Push to the Branch** (`git push origin feature/AmazingFeature`) 🚀
+5.  **Open a Pull Request** 📬
+
+---
+
+## 🌟 Show Your Support
+
+If you find this project useful or inspiring, please consider giving it a ⭐ **star** on GitHub! It's a simple gesture that helps motivate me and increases the project's visibility to others.
+
+<div align="center">
+  <a href="https://github.com/sponsors/mixtrus" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-%23db61a2.svg?style=for-the-badge&logo=GitHub-Sponsors&logoColor=white" alt="Sponsor the project">
+  </a>
+</div>
 
 ---
 
@@ -161,3 +186,4 @@ This project is distributed under the MIT License. See `LICENSE` for more inform
 -   [OpenAI](https://openai.com) for their incredible language models.
 -   The creators of [dompdf](https://github.com/dompdf/dompdf) and [PHPWord](https://github.com/PHPOffice/PHPWord).
 -   All the developers whose open-source work made this project possible.
+```
