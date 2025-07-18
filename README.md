@@ -119,21 +119,21 @@ The project follows a clean, scalable structure that separates concerns effectiv
 
 
 AI-CV-GEN/
-├── public/ # 🌐 Web server's document root
-│ ├── index.php # 🚦 Front Controller (All requests go here)
-│ └── assets/ # 🎨 CSS, JS, and other public assets
-├── src/ # 核心 Application source code (PSR-4)
-│ ├── Controller/ # 🧑‍✈️ Handles requests and orchestrates responses
-│ ├── Service/ # 🧠 Business logic (API calls, file generation)
-│ └── Core/ # ⚙️ Core components (e.g., Router)
-├── templates/ # 📄 PHP view templates for rendering HTML
-│ ├── layout.php # 뼈대 Main site layout
-│ └── partials/ # 🧩 Reusable HTML fragments
-├── vendor/ # 📦 Composer dependencies (auto-generated)
-├── .env # 🤫 Your secret environment variables (DO NOT COMMIT)
-├── .env.example # 📋 Example .env file
-├── composer.json # 📦 Project dependencies and autoloading
-└── README.md # 👈 You are here!
+├── public/                  # 🌐 Web server's document root
+│   ├── index.php            # 🚦 Front Controller (All requests go here)
+│   └── assets/              # 🎨 CSS, JS, and other public assets
+├── src/                     # ⚙️ Application source code (PSR-4)
+│   ├── Controller/          # 🧑‍✈️ Handles requests and orchestrates responses
+│   ├── Service/             # 🧠 Business logic (API calls, file generation)
+│   └── Core/                # 🔩 Core components (e.g., Router)
+├── templates/               # 📄 PHP view templates for rendering HTML
+│   ├── layout.php           # 🏗️ Main site layout
+│   └── partials/            # 🧩 Reusable HTML fragments
+├── vendor/                  # 📦 Composer dependencies (auto-generated)
+├── .env                     # 🤫 Your secret environment variables (DO NOT COMMIT)
+├── .env.example             # 📋 Example .env file
+├── composer.json            # 📦 Project dependencies and autoloading
+└── README.md                # 👈 You are here!
 
 Generated code
 ---
