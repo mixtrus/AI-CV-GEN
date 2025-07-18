@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mixtrus/ai-resume-builder/main/.github/banner.png?token=GHSAT0AAAAAACQ5Y2U7Z3XW4R6B5N7A4S3KZQ5Y2U7" alt="AI Resume Builder Banner">
+  <img src="https://raw.githubusercontent.com/mixtrus/AI-CV-GEN/main/.github/banner.png?token=GHSAT0AAAAAACQ5Y2U7Z3XW4R6B5N7A4S3KZQ5Y2U7" alt="AI Resume Builder Banner">
   <br>
   <h1>🔥 AI-Powered Resume Builder 🔥</h1>
   <p>
@@ -9,11 +9,11 @@
 
   <!-- Badges -->
   <p>
-    <a href="https://github.com/mixtrus/ai-resume-builder/stargazers"><img src="https://img.shields.io/github/stars/mixtrus/ai-resume-builder?style=for-the-badge&color=gold" alt="GitHub Stars"></a>
-    <a href="https://github.com/mixtrus/ai-resume-builder/network/members"><img src="https://img.shields.io/github/forks/mixtrus/ai-resume-builder?style=for-the-badge&color=blue" alt="GitHub Forks"></a>
-    <a href="https://github.com/mixtrus/ai-resume-builder/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mixtrus/ai-resume-builder?style=for-the-badge&color=green" alt="License"></a>
+    <a href="https://github.com/mixtrus/AI-CV-GEN/stargazers"><img src="https://img.shields.io/github/stars/mixtrus/AI-CV-GEN?style=for-the-badge&color=gold" alt="GitHub Stars"></a>
+    <a href="https://github.com/mixtrus/AI-CV-GEN/network/members"><img src="https://img.shields.io/github/forks/mixtrus/AI-CV-GEN?style=for-the-badge&color=blue" alt="GitHub Forks"></a>
+    <a href="https://github.com/mixtrus/AI-CV-GEN/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mixtrus/AI-CV-GEN?style=for-the-badge&color=green" alt="License"></a>
     <img src="https://img.shields.io/badge/PHP-8.1%2B-blueviolet?style=for-the-badge&logo=php" alt="PHP Version">
-    <img src="https://img.shields.io/github/repo-size/mixtrus/ai-resume-builder?style=for-the-badge" alt="Repo Size">
+    <img src="https://img.shields.io/github/repo-size/mixtrus/AI-CV-GEN?style=for-the-badge" alt="Repo Size">
   </p>
   <p>
     <em>Programmed with ❤️ by <strong>Saman</strong> (<a href="https://github.com/mixtrus">@mixtrus</a>)</em>
@@ -29,7 +29,7 @@ In today's competitive job market, a standout resume is non-negotiable. This pro
 <br>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mixtrus/ai-resume-builder/main/.github/demo.gif?token=GHSAT0AAAAAACQ5Y2U7Z3XW4R6B5N7A4S3KZQ5Y2U7" alt="Project Demo GIF" width="800">
+  <img src="https://raw.githubusercontent.com/mixtrus/AI-CV-GEN/main/.github/demo.gif?token=GHSAT0AAAAAACQ5Y2U7Z3XW4R6B5N7A4S3KZQ5Y2U7" alt="Project Demo GIF" width="800">
 </div>
 
 <br>
@@ -90,8 +90,8 @@ Get your own instance of the AI Resume Builder running in just a few minutes.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/mixtrus/ai-resume-builder.git
-    cd ai-resume-builder
+    git clone https://github.com/mixtrus/AI-CV-GEN.git
+    cd AI-CV-GEN
     ```
 
 2.  **Install PHP dependencies with Composer:**
@@ -119,7 +119,7 @@ Get your own instance of the AI Resume Builder running in just a few minutes.
 
 The project follows a clean, scalable structure that separates concerns effectively.
 
-ai-resume-builder/
+AI-CV-GEN/
 ├── public/ # 🌐 Web server's document root
 │ ├── index.php # 🚦 Front Controller (All requests go here)
 │ └── assets/ # 🎨 CSS, JS, and other public assets
