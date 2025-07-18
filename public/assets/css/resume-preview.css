@@ -1,0 +1,152 @@
+/*
+ * Responsive Styles for the Web Resume Preview
+ * Programmer: Saman
+ *
+ * This stylesheet uses responsive units (rem, em, %) and media queries
+ * to ensure the resume preview looks great on all screen sizes.
+ * It is separate from the print-optimized theme CSS files.
+ */
+
+.resume-preview-wrapper .resume {
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.resume-preview-wrapper .resume-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.resume-preview-wrapper .resume-header h1 {
+    font-size: 2.25rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.resume-preview-wrapper .contact-info {
+    font-size: 0.9rem;
+    color: #555;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 1rem;
+}
+
+.resume-preview-wrapper .contact-info a {
+    text-decoration: none;
+}
+
+.resume-preview-wrapper .resume-section {
+    margin-bottom: 1.5rem;
+}
+
+.resume-preview-wrapper .resume-section h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.25rem;
+}
+
+.resume-preview-wrapper .resume-section p {
+    margin: 0;
+    white-space: pre-wrap; /* Preserves line breaks from textarea */
+    word-break: break-word;
+}
+
+/* --- Theme-Specific Overrides for Web Preview --- */
+
+/* Modern Theme Preview */
+.resume-preview-wrapper.theme-modern .resume-header {
+    border-bottom: 2px solid #333;
+}
+.resume-preview-wrapper.theme-modern .resume-header h1 {
+    color: #000;
+}
+.resume-preview-wrapper.theme-modern .contact-info a {
+    color: #007bff;
+}
+.resume-preview-wrapper.theme-modern .resume-section h2 {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Classic Theme Preview */
+.resume-preview-wrapper.theme-classic .resume-header {
+    text-align: left;
+}
+.resume-preview-wrapper.theme-classic .resume-header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.resume-preview-wrapper.theme-classic .contact-info {
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: flex-start;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 0.5rem 0;
+    margin-top: 0.5rem;
+}
+.resume-preview-wrapper.theme-classic .contact-info a {
+    color: #111;
+    text-decoration: underline;
+}
+.resume-preview-wrapper.theme-classic .resume-section h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/* Corporate Theme Preview */
+.resume-preview-wrapper.theme-corporate .resume-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    border-bottom: 3px solid #2c5282;
+}
+.resume-preview-wrapper.theme-corporate .resume-header h1 {
+    color: #2c5282;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.resume-preview-wrapper.theme-corporate .contact-info {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.25rem;
+}
+.resume-preview-wrapper.theme-corporate .contact-info a {
+    color: #2c5282;
+}
+.resume-preview-wrapper.theme-corporate .resume-section h2 {
+    color: #2c5282;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Responsive adjustments for the resume content itself */
+@media (max-width: 480px) {
+    .resume-preview-wrapper .resume {
+        padding: 1.5rem;
+    }
+    .resume-preview-wrapper .resume-header h1 {
+        font-size: 1.8rem;
+    }
+    .resume-preview-wrapper .contact-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .resume-preview-wrapper.theme-corporate .resume-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .resume-preview-wrapper.theme-corporate .contact-info {
+        align-items: flex-start;
+        text-align: left;
+    }
+}

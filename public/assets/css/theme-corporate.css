@@ -1,0 +1,12 @@
+/* Corporate Theme */
+body { font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; color: #2d3748; font-size: 10.5pt; line-height: 1.5; }
+.resume { padding: 40px; }
+.resume-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid #2c5282; padding-bottom: 10px; margin-bottom: 25px; }
+.resume-header h1 { margin: 0; font-size: 24pt; color: #2c5282; font-weight: bold; }
+.contact-info { text-align: right; font-size: 9pt; }
+.contact-info span { display: block; }
+.contact-info a { color: #2c5282; text-decoration: none; }
+.contact-info a:hover { text-decoration: underline; }
+.resume-section { margin-bottom: 20px; }
+.resume-section h2 { font-size: 12pt; color: #2c5282; font-weight: bold; margin-bottom: 8px; text-transform: uppercase; }
+.resume-section p { margin: 0 0 10px 0; white-space: pre-wrap; }
